@@ -1,0 +1,54 @@
+body {
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 15px;
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  text-transform: capitalize;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=blog.0352c5b4.css.map */
