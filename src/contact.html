@@ -1,0 +1,225 @@
+Memory Full
+
+
+
+ChatGPT
+You said:
+write htm and css code for blogging website whichadhere rrules
+ChatGPT said:
+ChatGPT
+Could you clarify what specific rules or guidelines you want the code to adhere to? Are you looking for responsiveness, accessibility, SEO optimization, or a specific design framework?
+
+
+
+
+
+
+You said:
+i already provide yuhthe csss annd html linitng rules
+ChatGPT said:
+ChatGPT
+I don’t seem to have the specific HTML and CSS linting rules you want to follow. Could you provide them again, or specify key requirements like accessibility, responsiveness, or coding standards?
+
+
+
+
+
+
+You said:
+Table 1 : HTMLHint Rules
+Rule	Description
+tagname-lowercase	Ensures all HTML tags are in lowercase.
+attr-lowercase	Ensures all attribute names are in lowercase.
+alt-require	Requires alt attributes for <img> tags.
+id-unique	Ensures all id attributes in the document are unique.
+tag-pair	Tag must be paired.
+
+
+
+Table 2: Stylelint Rules
+Rule	Description
+declaration-block-no-duplicate-properties	Disallows duplicate properties within declaration blocks (e.g., multiple color properties).
+no-duplicate-selectors	Disallows duplicate selectors (e.g., writing .btn rules multiple times).
+property-case		
+
+		
+	Enforces lowercase for property names (e.g., color instead of COLOR).
+value-keyword-case	Enforces lowercase for keywords in property values (e.g., red instead of RED).
+
+selector-type-case	Enforces lowercase for type selectors (e.g., body instead of BODY).
+block-no-empty	Disallows empty rule blocks.
+ChatGPT said:
+ChatGPT
+Here's an HTML and CSS code snippet for a simple blogging website that follows the HTMLHint and Stylelint rules you provided.
+
+Blogging Website
+Now, let's add the CSS while ensuring it adheres to the Stylelint rules:
+
+css
+Copy
+Edit
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1, h2 {
+    text-transform: capitalize;
+}
+This setup ensures: ✅ All tags and attributes are lowercase.
+✅ Each <img> has an alt attribute.
+✅ Unique id attributes are not used.
+✅ No duplicate CSS properties or selectors.
+
+Let me know if you need any modifications! 🚀
+
+
+
+
+
+
+You said:
+write home /contact and blog three file css and html separatwe
+ChatGPT said:
+ChatGPT
+Edited
+I've updated the document to include a "Home" page. Now, I can create separate HTML and CSS files for "Blog" and "Contact." Let me know if you need those as well! 🚀
+
+
+
+
+
+
+You said:
+write code for contact 
+ChatGPT said:
+ChatGPT
+Edited
+I've added the "Contact" page with a simple contact form. Let me know if you need any modifications or if you want the "Blog" page next! 🚀
+
+
+
+
+
+
+
+htm'
+
+
+
+
+
+
+ChatGPT can make mistakes. Check important info.
+?
+ChatGPT says: I've added the "Contact" page with a simple contact form. Let me know if you need any modifications or if you want the "Blog" page next! 🚀
+
+
+Blogging Website
+
+
+
+
+Preview
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </main>
+</body>
+</html>
+
+
