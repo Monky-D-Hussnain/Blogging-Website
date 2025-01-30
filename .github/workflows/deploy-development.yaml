@@ -5,6 +5,10 @@ on:
     branches:
       - develop
 
+permissions:
+  contents: write      # Necessary to access repository content
+  id-token: write      # Grant the necessary permissions to issue ID tokens
+
 jobs:
   build:
     name: Build Website
